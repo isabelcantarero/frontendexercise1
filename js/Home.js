@@ -28,10 +28,12 @@ for (i = 0; i < close.length; i++) {
 var list = document.querySelector('#toDoList');
 list.addEventListener('click', function(ev) {
   if (ev.target.className === 'to-do-li-element') {
+       ev.target.classList.toggle('checked');
+  }
+  else{
     ev.target.classList.toggle('checked');
   }
 }, false);
-
 
 // Create a new list item when clicking on the "Add" button
 function newElement() {

@@ -9,23 +9,28 @@ body{
 }
 
 
-ul, li, h2, input {
-	margin:0px;
-	padding:0px;
+ul, li, h2, input, div{
+	margin:0vw;
+	padding:0vw;
 }
 
+   /*  NAVIGATION BAR */
+
 	.header-font-styling{
-		font-size:45px;
-		color:white;
+		font-size:2.5vw;
 	}
+
 
 	.header-nav-bar-styling{
 		display:flex;
 		justify-content:flex-end;
+    margin-top: 1.6vw;
+    margin-bottom:1.6vw;
+    margin-right:4vw;
 	}
 	
 	.header-container{
-		margin:24px 24px 0px 0px;
+		margin:0vw 0vw 0vw 0vw;
 	}
 
 	.menu-links {
@@ -39,7 +44,6 @@ ul, li, h2, input {
 	}
 
 	a:active{
-		border-bottom: 1px solid white;
 		color: white;
 	}
 	a.disabled {
@@ -50,17 +54,36 @@ ul, li, h2, input {
 
 	.page-link{
 		display:inline-block;
-		min-width: 100px;
+		min-width: 6vw;
 	}
 
 
-.margin-top-12px{
-  margin-top:12px;
+.margin-top-1vw{
+  margin-top:1vw;
 }
 
    --------------------------------------------
 
-/* HOME TO DO LIST */
+/*   HOME   */
+
+
+/*   TITLE SECTION   */
+
+.home-title{
+  display:flex;
+  justify-content: center;
+  font-size:1.1vw;
+}
+
+
+#homeTitle{
+  display:flex;
+  justify-content: center;
+  font-size:1.1vw;
+}
+
+
+/* TO DO LIST */
 
 /* Remove margins and padding from the all elements */
 * {
@@ -71,7 +94,8 @@ ul, li, h2, input {
 
 .to-do-list-boxing{
   width: 40%;
-  display:grid;
+  display:inline-block;
+  margin-left:.5vw;
 }
 
 
@@ -79,11 +103,11 @@ ul, li, h2, input {
  .to-do-li-element {
   cursor: pointer;
   position: relative;
-  margin-top:5px;
-  padding: 10px 20px 10px 20px;
+  margin-top:.5vw;
+  padding: .6vw 1.2vw .6vw 1.2vw;
   background: #cae2f9;
   border-radius:30px;
-  font-size: 12px;
+  font-size: .7vw;
   transition: 0.2s;
 
   /* make the list items unselectable */
@@ -112,6 +136,7 @@ ul, li, h2, input {
   color: white;
   text-align: center;
   margin-bottom:10px;
+  font-size:1.3vw;
 }
 
 /* Clear floats after the header */
@@ -125,8 +150,9 @@ ul, li, h2, input {
 .input-to-do{
   border: none;
   border-radius: 30px;
-  padding: 10px;
-  font-size: 12px;
+  padding: .6vw;
+  font-size: .7vw;
+  width: 100%;
 }
 
 .to-do-ul{
@@ -138,7 +164,7 @@ ul, li, h2, input {
   position: absolute;
   right: 0;
   top: 0;
-  padding: 10px 14px 10px 14px;
+  padding: .6vw .8vw .6vw .8vw;
   border-radius:30px;
 }
 
@@ -147,7 +173,6 @@ ul, li, h2, input {
   color: white;
   opacity:.6;
 }
-
 
 
 /* Style the "Add" button */
