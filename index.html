@@ -1,62 +1,48 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/general-styling.css">
-    <link href="dist/toolkit.min.css" rel="stylesheet">
-    <link href="/open-iconic/font/css/open-iconic.css" rel="stylesheet">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- Local Style Sheet -->
+        <link rel="stylesheet" href="css/general-styling.css">
+        <!-- Amatic Font -->
+        <link href="https://fonts.googleapÇis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+        <!-- Roboto And Monstserrat Font  css: 'Roboto', sans-serif & 'Montserrat', sans serif -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
+        <title> Isabel Cantarero Moya </title>
+    </head>
 
-	<title> Isabel Cantarero Moya </title>
-</head>
-<body class="background-style">
+    <body>
+        <!-- HEADER -->
+        <nav class="header-container">
+        	<div>
+	            <ul class="header-font-styling header-nav-bar-styling">
+	                <li class="page-link">
+	                    <a id="home" class="menu-links" href="#">Home</a>
+	                </li>
+	                <li class="page-link">
+	                    <a class="menu-links disabled" href="#">About</a>
+	                </li>
+	                <li class="page-link">
+	                    <a class="menu-links" href="#">Link</a>
+	                </li>
+	                <li class="page-link">
+	                    <a class="menu-links disabled" href="#">Disabled</a>
+	                </li>
+	            </ul>
+	        </div>
+            <nav>
+                <!-- CONTENT-->
+                <div include-html id="content" class="content roboto-Font">
+                </div>
+                <!-- jQuery, then knockout, SVGcolor, ContentHandler-->
+                <script src="js/jquery-3.4.0.min.js"></script>
+                <script src="js/knockout-3.5.0.js" type='text/javascript'></script>
+                <script src="js/svg-color.js" type='text/javascript'></script>
+                <script src="js/events.js" type='text/javascript'></script>
+    </body>
 
-	<!-- HEADER -->
-<div class="header-boxing d-flex justify-content-start border-bottom">
-	<nav class="navbar-nav">
-		    <div class="navbar flex-row align-text-center padding-top-bottom-24px padding-left-0px">
-		      <a class="nav-item nav-link active header-tab" href="#">Me</a>
-		      <a class="nav-item nav-link header-tab" href="#">Expenses</a>
-		      <a class="nav-item nav-link header-tab" href="#">Procurement</a>
-		      <a class="nav-item nav-link header-tab" href="#">Tools</a>
-		      <a class="nav-item nav-link header-tab" href="#">Others</a>
-			</div>
-	  </div>
-	</nav>
-</div>
-
-
-<!-- LEFT NAVIGATION-->
-   <div class="header-boxing d-flex justify-content-start">
-		    <div class="align-text-left padding-left-0px header-tab icon side-bar-width">
-				
-				<img class="width-height-24px nav-item" 
-					src="open-iconic-master/svg/people.svg" alt="icon name">
-					 <a class=side-bar-text> People Details </a> 
-				</img>
-				
-		      <a class="nav-item nav-link active header-tab" href="#">Me</a>
-		      <a class="nav-item nav-link header-tab" href="#">Expenses</a>
-		      <a class="nav-item nav-link header-tab" href="#">Procurement</a>
-		      <a class="nav-item nav-link header-tab" href="#">Tools</a>
-		      <a class="nav-item nav-link header-tab" href="#">Others</a>
-			</div>
-	  </div>
-	</nav>
-
-
-
-<span class="icon icon-thumbs-up"></span>
-
-
-    <!-- jQuery, then Bootstrap JS, then knockout-->
-    <script src="js/jquery-3.4.0.min.js"></script>
-    <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js" ></script>  
-    <script src="js/knockout-3.5.0.js" type='text/javascript'></script> 
-    <script src="js/svg-color.js" type='text/javascript'></script> 
-</body>
 </html>
